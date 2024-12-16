@@ -7,10 +7,11 @@ It will return true if the item is in _only one_ of the lists.
 
 def is_in_one(item:str,list1:list,list2:list) -> bool:
     """This function return a bool after checking 
-    weather item in both lists (return true) or not( return false)
+    weather item is only in one of the lists (return true) or ( return false)
+    if item exist in both lists or neither of them
 
 Parameters:
-item(str): we will look for the item in both lists and it has to be a string
+item(str): we will look for the item that should be in only one list and it has to be a string
 list1(list): a list of string
 list2(list): a list of string
 
